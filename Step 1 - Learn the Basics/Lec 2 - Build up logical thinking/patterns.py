@@ -79,11 +79,8 @@ print("Pattern 7\n")
 n = int(input("Enter a Number: "))
 
 for i in range(n):
-    # Print leading spaces
     for j in range(n - i - 1):
         print(" ", end="")
-    # Print asterisks
     for j in range(2 * i + 1):
         print("*", end="")
-    # Move to the next line
     print()
