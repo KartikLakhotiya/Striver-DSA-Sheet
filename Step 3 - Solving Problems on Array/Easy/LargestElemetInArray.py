@@ -6,4 +6,5 @@ for i in range(len(arr)):
             min_idx = j
     arr[i], arr[min_idx] = arr[min_idx], arr[i]
 
-print(arr[-1])
+print('Sorted Array : ', arr)
+print('Largest Element : ', arr[-1])
